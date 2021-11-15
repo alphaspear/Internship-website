@@ -11,17 +11,19 @@ export const Header = (props) => {
                   <span></span>
                 </h1>
                 <p>{props.data ? props.data.paragraph : 'Loading'}</p>
-                <a
-                  href='#features'
-                  className='btn btn-custom btn-lg page-scroll'
-                >
-                  Learn More
-                </a>{' '}
+                <p>
+                  An awesome IT support partner in success of your journeys.
+                </p>
+                <p>
+                  IT company Web Development Company Dehradun
+                </p>
               </div>
             </div>
           </div>
         </div>
       </div>
+      
     </header>
+    
   )
 }

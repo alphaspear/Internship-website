@@ -1,3 +1,6 @@
+import React from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import {NavBar, Nav, NavItem} from 'react-bootstrap';
 import { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
@@ -10,6 +13,7 @@ import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
+
 import "./App.css";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -24,7 +28,8 @@ const App = () => {
   }, []);
 
   return (
-    <div>
+    
+/*
       <Navigation />
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
@@ -34,7 +39,23 @@ const App = () => {
       <Testimonials data={landingPageData.Testimonials} />
       <Team data={landingPageData.Team} />
       <Contact data={landingPageData.Contact} />
-    </div>
+      */
+   <div>
+     
+    <Router>
+      <Navigation />
+      <Switch>
+        <Route path="/" exact component={() => <><Header data={landingPageData.Header} /><Features data={landingPageData.Features} /><Gallery data={landingPageData.Gallery}/><Testimonials data={landingPageData.Testimonials} />   </>} />
+        <Route path="/about" exact component={() => <About data={landingPageData.About} />} />
+        <Route path="/contact" exact component={() => <Contact data={landingPageData.Contact} />} />
+        <Route path="/gallery" exact component={() => <Gallery data={landingPageData.Gallery} />} />
+        <Route path="/testimonials" exact component={() => <Testimonials data={landingPageData.Testimonials} />} />
+        <Route path="/team" exact component={() => <Team data={landingPageData.Team} />} />
+      </Switch>
+    </Router>
+  </div>
+  
+    
   );
 };
 
