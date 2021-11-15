@@ -1,18 +1,19 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import {NavBar, Nav, NavItem} from 'react-bootstrap';
 import { useState, useEffect } from "react";
-import { Navigation } from "./components/navigation";
+import { Navigation } from "./components/navigation2";
 import { Header } from "./components/header";
+import { Footer } from "./components/footer";
 import { Features } from "./components/features";
 import { About } from "./components/about";
-import { Services } from "./components/services";
+//import { Services } from "./components/services";
 import { Gallery } from "./components/gallery";
 import { Testimonials } from "./components/testimonials";
-import { Team } from "./components/Team";
+//import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
+//import 'bootstrap/dist/css/bootstrap.min.css';
 
 import "./App.css";
 
@@ -29,7 +30,7 @@ const App = () => {
 
   return (
     
-/*
+      /*
       <Navigation />
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
@@ -41,16 +42,16 @@ const App = () => {
       <Contact data={landingPageData.Contact} />
       */
    <div>
-     
     <Router>
       <Navigation />
       <Switch>
-        <Route path="/" exact component={() => <><Header data={landingPageData.Header} /><Features data={landingPageData.Features} /><Gallery data={landingPageData.Gallery}/><Testimonials data={landingPageData.Testimonials} />   </>} />
-        <Route path="/about" exact component={() => <About data={landingPageData.About} />} />
-        <Route path="/contact" exact component={() => <Contact data={landingPageData.Contact} />} />
-        <Route path="/gallery" exact component={() => <Gallery data={landingPageData.Gallery} />} />
-        <Route path="/testimonials" exact component={() => <Testimonials data={landingPageData.Testimonials} />} />
-        <Route path="/team" exact component={() => <Team data={landingPageData.Team} />} />
+        <Route path="/" exact component={() => <><Header data={landingPageData.Header} /><Features data={landingPageData.Features} /><Gallery data={landingPageData.Gallery}/><Testimonials data={landingPageData.Testimonials} /><Footer data={landingPageData.Footer} />   </>} />
+        <Route path="/about" exact component={() => <><About data={landingPageData.About} /><Footer data={landingPageData.Footer} /></>} />
+        <Route path="/contact" exact component={() => <><Contact data={landingPageData.Contact} /> <Footer data={landingPageData.Footer} />   </>} />
+        <Route path="/services/web_development" exact component={() => <><Header data={landingPageData.Header} /><Features data={landingPageData.Features} /><Gallery data={landingPageData.Gallery}/><Testimonials data={landingPageData.Testimonials} /><Footer data={landingPageData.Footer} />   </>} />      
+        <Route path="/services/software_development" exact component={() => <><Header data={landingPageData.Header} /><Features data={landingPageData.Features} /><Gallery data={landingPageData.Gallery}/><Testimonials data={landingPageData.Testimonials} /><Footer data={landingPageData.Footer} />   </>} />   
+        <Route path="/services/mobile_app_development" exact component={() => <><Header data={landingPageData.Header} /><Features data={landingPageData.Features} /><Gallery data={landingPageData.Gallery}/><Testimonials data={landingPageData.Testimonials} /><Footer data={landingPageData.Footer} />   </>} />      
+        
       </Switch>
     </Router>
   </div>

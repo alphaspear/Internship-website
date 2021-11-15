@@ -10,13 +10,13 @@ export const Header = (props) => {
                   {props.data ? props.data.title : 'Loading'}
                   <span></span>
                 </h1>
-                <p>{props.data ? props.data.paragraph : 'Loading'}</p>
-                <p>
+                <h4>{props.data ? props.data.paragraph : 'Loading'}</h4>
+                <h4>
                   An awesome IT support partner in success of your journeys.
-                </p>
-                <p>
+                </h4>
+                <h4>
                   IT company Web Development Company Dehradun
-                </p>
+                </h4>
               </div>
             </div>
           </div>
