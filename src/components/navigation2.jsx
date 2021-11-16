@@ -1,4 +1,4 @@
-import { Navbar , Container , Nav , NavDropdown} from 'react-bootstrap';
+import { NavDropdown} from 'react-bootstrap';
 export const Navigation = (props) => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
@@ -17,7 +17,7 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
           </button>
           <a className='navbar-brand page-scroll' href='/'>
-            Rainbow TechMedia Systems
+            Rainbow TechMedia Services
           </a>{' '}
         </div>
 
@@ -40,7 +40,7 @@ export const Navigation = (props) => {
             <a>
               <NavDropdown title="Services" id="collasible-nav-dropdown">
               <NavDropdown.Item href="/services/web_development"><p>Web Development</p></NavDropdown.Item>
-              <NavDropdown.Item href="/services/software_development"><p>Software Development</p></NavDropdown.Item>
+              <NavDropdown.Item href="/software_development"><p>Software Development</p></NavDropdown.Item>
               <NavDropdown.Item href="/services/mobile_app_development"><p>Mobile App Development</p></NavDropdown.Item>
               </NavDropdown>
               </a>

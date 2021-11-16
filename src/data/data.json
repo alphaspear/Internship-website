@@ -1,10 +1,25 @@
 {
   "Header": {
-    "title": "Web Media Solutions",
-    "paragraph": "Create Amazing Business Web Apps and Turns Your Ideas in to Realty"
+    "title": "Rainbow Techmedia Services"
   },
   "About": {
     "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "Why": [
+      "Lorem ipsum dolor",
+      "Tempor incididunt",
+      "Lorem ipsum dolor",
+      "Incididunt ut labore"
+    ],
+    "Why2": [
+      "Aliquip ex ea commodo",
+      "Lorem ipsum dolor",
+      "Exercitation ullamco",
+      "Lorem ipsum dolor"
+    ]
+  },
+  "Software_Development": {
+    "topic": "Software Development",
+    "paragraph": "We provide Software development services for companieds and also kowjsfdiod s sdf sf jsdfj ds fdf dfj sid fisdfidsfsdifj  sdfsdf dsf ksdf sdfsdf",
     "Why": [
       "Lorem ipsum dolor",
       "Tempor incididunt",
