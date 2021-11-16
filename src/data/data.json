@@ -33,6 +33,38 @@
       "Lorem ipsum dolor"
     ]
   },
+  "Web_Development": {
+    "topic": "Web Development",
+    "paragraph": "We provide Software development services for companieds and also kowjsfdiod s sdf sf jsdfj ds fdf dfj sid fisdfidsfsdifj  sdfsdf dsf ksdf sdfsdf",
+    "Why": [
+      "Lorem ipsum dolor",
+      "Tempor incididunt",
+      "Lorem ipsum dolor",
+      "Incididunt ut labore"
+    ],
+    "Why2": [
+      "Aliquip ex ea commodo",
+      "Lorem ipsum dolor",
+      "Exercitation ullamco",
+      "Lorem ipsum dolor"
+    ]
+  },
+  "App_Development": {
+    "topic": "Web Development",
+    "paragraph": "We provide Software development services for companieds and also kowjsfdiod s sdf sf jsdfj ds fdf dfj sid fisdfidsfsdifj  sdfsdf dsf ksdf sdfsdf",
+    "Why": [
+      "Lorem ipsum dolor",
+      "Tempor incididunt",
+      "Lorem ipsum dolor",
+      "Incididunt ut labore"
+    ],
+    "Why2": [
+      "Aliquip ex ea commodo",
+      "Lorem ipsum dolor",
+      "Exercitation ullamco",
+      "Lorem ipsum dolor"
+    ]
+  },
   "Gallery": [
     {
       "title": "Project Title",

@@ -39,9 +39,9 @@ export const Navigation = (props) => {
             <li>
             <a>
               <NavDropdown title="Services" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="/services/web_development"><p>Web Development</p></NavDropdown.Item>
+              <NavDropdown.Item href="/web_development"><p>Web Development</p></NavDropdown.Item>
               <NavDropdown.Item href="/software_development"><p>Software Development</p></NavDropdown.Item>
-              <NavDropdown.Item href="/services/mobile_app_development"><p>Mobile App Development</p></NavDropdown.Item>
+              <NavDropdown.Item href="/mobile_app_development"><p>Mobile App Development</p></NavDropdown.Item>
               </NavDropdown>
               </a>
             </li>
