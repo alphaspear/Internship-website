@@ -9,7 +9,7 @@ import { About } from "./components/about";
 import { Information } from "./components/information";
 //import { Services } from "./components/services";
 import { Gallery } from "./components/gallery";
-import { Technology } from "./components/technology";
+//import { Technology } from "./components/technology";
 import { Testimonials } from "./components/testimonials";
 //import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
@@ -33,7 +33,6 @@ const App = () => {
   return (
     
       /*
-      <Navigation />
       <Header data={landingPageData.Header} />
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
@@ -47,7 +46,7 @@ const App = () => {
     <Router>
       <Navigation />
       <Switch>
-        <Route path="/" exact component={() => <><Header data={landingPageData.Header} /><Features data={landingPageData.Features} /><Technology data={landingPageData.Technology}/><Testimonials data={landingPageData.Testimonials} /><Footer data={landingPageData.Footer} />   </>} />
+        <Route path="/" exact component={() => <><Header data={landingPageData.Header} /><Features data={landingPageData.Features} /> <Testimonials data={landingPageData.Testimonials} /><Footer data={landingPageData.Footer} />   </>} />
         <Route path="/about" exact component={() => <><About data={landingPageData.About} /><Footer data={landingPageData.Footer} /></>} />
         <Route path="/contact" exact component={() => <><Contact data={landingPageData.Contact} /> <Footer data={landingPageData.Footer} />   </>} />
         <Route path="/services/web_development" exact component={() => <><Header data={landingPageData.Header} /><Features data={landingPageData.Features} /><Gallery data={landingPageData.Gallery}/><Testimonials data={landingPageData.Testimonials} /><Footer data={landingPageData.Footer} />   </>} />      

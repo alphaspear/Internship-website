@@ -3,66 +3,69 @@
     "title": "Rainbow Techmedia Services"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "We are a small team of techno functional young minds, Who are instrumental in blending and interfacing   ICT technology  with various areas of Health, Project Monitoring, News and Content Management and Education, social media and of course leveraging power of  search engines.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Website Development",
+      "Mobile Apps",
+      "Custom Software Development",
+      "SEO & Social Media"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "eCommerce Development",
+      "Software Security Audit",
+      "Data Collection & Analysis Support",
+      "MIS & M&E System Development"
     ]
   },
   "Software_Development": {
     "topic": "Software Development",
-    "paragraph": "We provide Software development services for companieds and also kowjsfdiod s sdf sf jsdfj ds fdf dfj sid fisdfidsfsdifj  sdfsdf dsf ksdf sdfsdf",
+    "paragraph": "We have a team of VBA developers who have a development experience with MNC brand like L & T and Nokia Siemens. We love challenges so what you want from your excel complex calculations, real time reporting from database or automation you can contact us. We will definitely solve all your concern by our technical knowledge & experience.",
+    "Image": "img/swd.webp",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "We develop Software for Windows",
+      "We develop Softwares for Linux",
+      "We develop Softwares for IOS",
+      "Secure"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Reliable",
+      "Expertise in UI/UX Design",
+      "Expertise in App Development",
+      "Efficient Softwares"
     ]
   },
   "Web_Development": {
     "topic": "Web Development",
-    "paragraph": "We provide Software development services for companieds and also kowjsfdiod s sdf sf jsdfj ds fdf dfj sid fisdfidsfsdifj  sdfsdf dsf ksdf sdfsdf",
+    "paragraph": "A per todays trend people are migrating to open source & it is cost effective solution for small business. We provide guaranteed solution for Magneto or Word Press Website Design and Development. We also provide data entry operator for ecommerce websites so your worries about data entry of products, how it looks after entry done ETC is now ours. We also provide product base photography. Now a days Word Press Platform had covered 25% Market Share of Total Websites. We build a User Interface Design (UID) to enhance online sales, brand loyalty and consumer engagement. Ecommerce Technology – We design customized and affordable shopping cart solutions.",
+    "Image": "img/webd.jpeg",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Responsive Sites",
+      "Great UI/UX",
+      "Faster Load times",
+      "Secure"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Reliable",
+      "99% Uptime",
+      "Available for all devices",
+      "Search Engine Optimization"
     ]
   },
   "App_Development": {
-    "topic": "Web Development",
-    "paragraph": "We provide Software development services for companieds and also kowjsfdiod s sdf sf jsdfj ds fdf dfj sid fisdfidsfsdifj  sdfsdf dsf ksdf sdfsdf",
+    "topic": "Mobile App Development",
+    "paragraph": "Today’s market is gadget market like mobile. More than 45% Google Surfing coming through mobile shows that future is mobile.",
+    "Image": "img/mad.png",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "We develop apps for IOS",
+      "We develop apps for Android",
+      "Expertise in App Development",
+      "Secure"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Reliable",
+      "Expertise in UI/UX Design",
+      "",
+      ""
     ]
   },
   "Gallery": [
@@ -146,12 +149,12 @@
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
+      "img": "img/testimonials/01.png",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
       "name": "John Doe"
     },
     {
-      "img": "img/testimonials/02.jpg",
+      "img": "img/testimonials/02.png",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
       "name": "Johnathan Doe"
     },
@@ -161,20 +164,41 @@
       "name": "John Doe"
     },
     {
-      "img": "img/testimonials/04.jpg",
+      "img": "img/testimonials/04.png",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
       "name": "Johnathan Doe"
     },
     {
-      "img": "img/testimonials/05.jpg",
+      "img": "img/testimonials/05.png",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
       "name": "John Doe"
     },
     {
-      "img": "img/testimonials/06.jpg",
+      "img": "img/testimonials/06.png",
       "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
       "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/07.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/08.png",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/09.png",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/10.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
     }
+
   ],
   "Team": [
     {
@@ -199,9 +223,9 @@
     }
   ],
   "Contact": {
-    "address": "4321 California St, San Francisco, CA 12345 ",
-    "phone": "+1 123 456 1234",
-    "email": "info@company.com",
+    "address": "Fountain Chowk, Dehradun, Uttarakhand",
+    "phone": "+91 98998 89890",
+    "email": "info@rainbowtechmedia.com",
     "facebook": "fb.com",
     "twitter": "twitter.com",
     "youtube": "youtube.com"
@@ -209,23 +233,23 @@
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "24x7 Live Support",
+      "text": "Our dedicated support team is happy to help you always when you need them most."
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Best Quality Designs",
+      "text": "We follow best web design standard and great looking designs for best visual impact."
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Experienced Professionals",
+      "text": "Team of experienced & highly motivated  professionals. "
     },
     {
       "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "On Time Delivery",
+      "text": "Delivery within  time is vital part of our quality policy, we ensure  delivery at time. "
     }
   ]
 }

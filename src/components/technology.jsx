@@ -12,7 +12,7 @@ export const Technology = (props) => {
         <div className='row'>
           <div className='portfolio-items'>
             <div className='col-sm-6 col-md-4 col-lg-4'>
-              <img src="/public/img/technology/technology-stack.png"></img>
+              <img src></img>
             </div>
           </div>
         </div>

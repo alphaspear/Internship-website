@@ -7,9 +7,12 @@
   #services,
   #testimonials,
   #team,
-  #contact,
+  #contact {
+    width: 111%;
+  }
   #footer {
     width: 111%;
+    height: 10px;
   }
 
   #portfolio {
